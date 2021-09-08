@@ -1,0 +1,108 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background:linear-gradient(to right, black 70%,white);
+}
+.navbar img{
+    width:90px;
+}
+.navbar ul li a{
+    color:wheat !important;
+    transition: all .3s;
+font-family: cursive;
+margin: 0px 13px;
+}
+.navbar ul li a:hover{
+    border-radius: 15px;
+    color:black !important;
+    background-color: #fff;
+    text-decoration: underline;
+}
+/* End Navbar*/
+.hr{
+    width:40%;
+    height: 5px;
+    margin: auto;
+    background: linear-gradient(to left,black,rgb(209, 64, 64),black);
+    border-radius: 60%;
+}
+#about_us{
+    background: linear-gradient(to right,black 70%,white);
+}
+#about_us hr{
+    border: 1px dashed white;
+    width:30%;
+}
+.container{
+    color:whitesmoke;
+
+}
+.info p{
+    font-family:cursive ;
+}
+#our_gallary{
+    margin-top: 45px;
+    background: linear-gradient(to right,rgb(0, 0, 0) 70%,white);
+}
+#our_gallary hr{
+    border:1px dashed white;
+    width:30%;
+}
+#our_gallary .nav-pills{
+    background: linear-gradient(to left, #555,#222);
+    margin: 20px auto;
+    width:40%;
+    border-radius: 25px;
+    border:1px solid whitesmoke;
+}
+
+#our_gallary .nav-item:hover{
+    background-color:gray;
+    border-radius: 20px;
+}
+.tab-content img{
+    margin:10px 0px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+#contact{
+    background: linear-gradient(to right,black 70%,white);
+}
+#contact hr{
+    width:30%;
+    border: 1px dashed whitesmoke;
+}
+#foot{
+    background-color: #33353d;
+    
+}
+#foot p{
+    color:wheat !important;
+}
+#foot ul{
+    list-style-type: none;
+}
+#foot ul li a{
+    color:wheat !important;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+#foot ul li   :hover{
+    color:blue !important;
+}
+#foot hr{
+    background-color:burlywood;
+}
+#foot .photo ul li a img {
+    float:right;
+   flex: auto;
+    flex-wrap: nowrap;
+    width: 45px;
+}
+.social-icons{
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+}
